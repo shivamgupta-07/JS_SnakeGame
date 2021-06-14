@@ -1,0 +1,42 @@
+.container-fluid{
+    background-color: indigo;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    background-color: lightpink;
+    height: 500px;
+    width: 500px;
+    display: grid; 
+    grid-template-rows: repeat(25, 1fr);
+    grid-template-columns: repeat(25, 1fr);
+    border: solid silver;
+}
+
+
+.snake-head{
+    background-color: black;
+
+}
+.food{
+    background-color: red;
+    border-radius: 50px;
+}
+.snake-body{
+    background-color: purple;
+    border-radius: 90px;
+}
+.score{
+    background-color: cornflowerblue;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 100px;
+    padding: 10px;
+}
+span{
+    color: white;
+    margin: 0 10px;
+}
